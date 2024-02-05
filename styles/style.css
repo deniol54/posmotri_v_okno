@@ -49,13 +49,12 @@ ol {
 
 .content {
   position: absolute;
-  inset: 0;
-  margin: auto;
-  width: 95%;
-  height: 72.75%;
+  top: 50%;
+  transform: translate(0, -51%);
+  margin-left: 30px;
   display: flex;
-  /* justify-items: center; */
-  /* align-items: flex-end; */
+  justify-items: center;
+  align-items: flex-end;
   column-gap: 30px;
 }
 
