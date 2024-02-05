@@ -9,8 +9,7 @@ html {
 }
 
 .page {
-  block-size: 100%;
-  block-size: 100%;
+  /* block-size: 100%; */
   inline-size: 1200px;
   margin: auto;
   color: #fff;
@@ -50,11 +49,9 @@ ol {
 
 .content {
   margin: auto;
-  max-width: 1140px;
-  margin-top: 53px;
-  padding-top: 82px;
-  /* margin-bottom: 135px; */
+  width: 95%;
   display: flex;
+  margin-top: 135px;
   justify-items: center;
   align-items: flex-end;
   column-gap: 30px;
