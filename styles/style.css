@@ -10,6 +10,7 @@ html {
 
 .page {
   block-size: 100%;
+  block-size: 100%;
   inline-size: 1200px;
   margin: auto;
   color: #fff;
