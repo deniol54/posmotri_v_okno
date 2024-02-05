@@ -9,7 +9,7 @@ html {
 }
 
 .page {
-  /* block-size: 100%; */
+  block-size: 100%;
   inline-size: 1200px;
   margin: auto;
   color: #fff;
@@ -48,12 +48,14 @@ ol {
 }
 
 .content {
+  position: absolute;
+  inset: 0;
   margin: auto;
   width: 95%;
+  height: 72.75%;
   display: flex;
-  margin-top: 135px;
-  justify-items: center;
-  align-items: flex-end;
+  /* justify-items: center; */
+  /* align-items: flex-end; */
   column-gap: 30px;
 }
 
