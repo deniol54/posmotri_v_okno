@@ -9,8 +9,8 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
   block-size: 100%;
+  inline-size: 1200px;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -48,9 +48,10 @@ ol {
 }
 
 .content {
-  padding-top: 135px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: auto;
+  max-width: 1140px;
+  margin-top: 53px;
+  padding-top: 82px;
   /* margin-bottom: 135px; */
   display: flex;
   justify-items: center;
